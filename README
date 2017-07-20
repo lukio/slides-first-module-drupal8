@@ -1,0 +1,9 @@
+Slides First module with Drupal8
+================================
+
+
+invoke::
+
+    pinpoint drupal.pin
+
+more information about pinpoint: https://wiki.gnome.org/Apps/Pinpoint
