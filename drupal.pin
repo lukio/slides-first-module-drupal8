@@ -1,0 +1,77 @@
+#!/usr/bin/env pinpoint
+
+[bg.jpg]
+[font=Sans 50px]
+[duration=5.000000]
+
+-- 
+¡Bienvenidos!
+
+ ❥ Mi primer módulo en Drupal 8
+
+-- [gcoop-futbol.jpg]
+¿Quienes somos?
+
+ ❥ Luciano Rossi 
+ ❥ Martin Ales
+
+-- [ayni.png]
+¿Quienes somos?
+
+ ❥ Luciano Rossi 
+ ❥ Martin Ales
+
+-- 
+Diferencias entre desarrollar modulos con Drupal7 y Drupal8
+
+ * Drupal 7 -> legacy de código y tiene sus propia forma de 
+   desarrollar y hacer las cosas (drupal way)
+ * Drupal 8 -> esta desarrollado sobre tecnologías conocida 
+   y probada (symphony) y pensada para un web que debe 
+   integrasrse con distintas aplicaciones
+
+--
+Drupal 7
+
+ * Programacion procedural
+ * No hay separacion entre el contenido y la configuración de forma simple.
+ * Separación incompleta entre la lógica y la presentación en la capa de theme.
+   PHPTemplate to its own Twig. 
+ * XHTML markup by default
+ * jQuery v1.4.x (se puede pasar a versiones superiores con modulo extra)
+ * Accesibilidad: Not an extensive use of WAI-ARIA attributes
+ * Views is a contributed module
+ * No esta integrado con REST por defecto. (contrib modules, ej: services/restws)
+
+--
+Drupal 8
+
+Where Drupal 8 is build with Symfony framework and Drupal concepts 
+such as Fields, Views, Entities, Nodes are now implemented using 
+object-oriented programming design patterns.
+
+ * Comes with Object Oriented Programming concepts to the most part of the system
+ * Semantic HTML5 markup by default
+ * jQuery v2.x, Modernizr, Underscore.js and Backbone.js.
+ * Extensive use of WAI-ARIA attributes.
+ * Views is added as one of the core module
+ * Uses Symfony framework and its MVC architecture
+ * REST es parte del core de Drupal.
+
+--
+La estructura de los módulos cambia.
+ 
+ * .info -> .info.yml
+ * .module -> sigue existiendo
+ * menu -> los path de menu se registran en el /config (no hay mas hook_menu)
+ * pasamos a tener *plugins* que extienden clases de otros módulos
+ * las variables se definen en /config en un archivo yml
+
+--
+Enlaces
+
+ • http://www.drupal.org
+ • https://github.com/gcoop-libre/ejercicio_drupal
+ • http://www.differencebetween.info/difference-between-drupal-7-and-drupal-8
+
+-- [questions_alf.png]

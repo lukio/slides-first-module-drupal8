@@ -1,0 +1,81 @@
+#!/usr/bin/env pinpoint
+
+[bg.jpg]
+[font=Sans 50px]
+[duration=5.000000]
+
+-- 
+¡Bienvenidos!
+
+ ❥ ¡Appa! Drupal, me salió una app
+
+-- [tryton-ar-comunidad.jpg]
+
+¿Quienes somos?
+
+ ❥ Luciano Rossi
+ ❥ Martin Ales
+
+-- 
+Drupal
+
+¿Qué es Drupal? 
+
+-- [libres.png]
+Software Libre
+
+<i>"Seamos libres lo demas no importa nada"</i>
+
+ ❥ usar
+ ❥ estudiar
+ ❥ distribuir
+ ❥ mejorar
+
+-- [camp-chile.jpg]
+Comunitario
+
+-- [drupalcon.jpg] [transition=page-curl-both] 
+Comunitario
+
+ • https://groups.drupal.org
+
+--
+¿CMS? o ¿Framework PHP?
+
+ • Manejador de contenidos
+ • Construye tu propio sitio dentro de Drupal
+ • API para desarrollar
+
+--
+Conceptos básicos de un drupalero
+
+ • Tipos de contenido
+ • Nodos
+ • Campos
+
+-- [cordova.jpg]
+Apache Cordova
+
+ • Framework para desorrollar app nativas para sistemas moviles usando HTML, CSS y js.
+ • Por ejemplo, con Cordova obtenemos acceso a la cámara de fotos, a los contactos, etc.
+ 
+
+-- [drupalgap.jpg]
+DrupalGap
+
+ • Puente entre Drupal y Apache Cordova
+ • Usa jQuery Mobile para la UI
+
+-- [drupalgap_login.png]
+-- [drupalgap_node.png]
+-- [drupalgap_node_edit.png]
+
+--
+Enlaces
+
+ • http://www.drupal.org
+ • http://www.drupalgap.org
+ • https://jquerymobile.com/
+ • https://cordova.apache.org/
+
+-- [questions_alf.png]
